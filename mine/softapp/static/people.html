@@ -1,0 +1,188 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>people page</title>
+    <style type="text/css">
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .banner {
+        width: 100%;
+        height: 95vh;
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.75),
+            rgba(0, 0, 0, 0.75)
+          ),
+          url(backgroundweb\ 7.jpg );
+        background-size: cover;
+        background-position: center;
+      }
+      .navbar {
+        width: 85%;
+        margin: auto;
+        padding: 35px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .bg-people {
+        border: 1px;
+        padding: 10px;
+        color: white;
+        background-color: rgb(131, 4, 25);
+        border-radius: 30px;
+      }
+      .logo {
+        color: rgb(88, 4, 32);
+        font-size: 40px;
+        font-weight: 700;
+        letter-spacing: 3px;
+      }
+      span {
+        color: rgb(199, 5, 199);
+      }
+      form {
+        width: 300px;
+        height: 40px;
+        display: flex;
+        background: rgba(83, 67, 67, 0.2);
+        padding: 1px 1px;
+        font-size: 15px;
+        border-radius: 10px;
+        backdrop-filter: blur(4px) saturate(180%);
+      }
+      form input {
+        background: transparent;
+        flex: 1;
+        border: 0;
+        outline: none;
+        padding: 12px 20px;
+        font-size: 15px;
+        color: rgb(62, 11, 11);
+      }
+      ::placeholder {
+        color: rgb(69, 13, 13);
+      }
+      form button {
+        border: 0;
+        outline: none;
+        padding: 5px 20px;
+        color: rgb(80, 206, 130);
+        border-radius: 10px;
+        background:rgb(25, 15, 162);
+        cursor: pointer;
+      }
+      .navbar li {
+        list-style: none;
+        display: inline-block;
+        margin: 0 20px;
+        position: relative;
+      }
+      .navbar li a {
+        text-decoration: none;
+        color: rgb(153, 212, 190);
+        text-transform: uppercase;
+      }
+      .navbar li:hover {
+        border: 1px;
+        padding: 10px;
+
+        transition: 0.5s;
+        cursor: pointer;
+        border-radius: 30px;
+        background: rgb(63, 14, 159);
+        color: #081b29;
+        box-shadow: 0 0 20px rgb(221, 125, 231);
+      }
+      .image {
+        position: relative;
+        border: 0;
+        top: 150px;
+
+        background: transparent;
+      }
+      .image table {
+        border: 0;
+        color: rgb(107, 174, 126);
+        position: relative;
+        left: 200px;
+        border: 10PX;
+        padding-left: 10px;
+      
+      }
+      .image table img {
+        height: 140px;
+        width: 140px;
+        border: 2px solid white;
+        padding: 5px;
+        border-radius: 50%;
+      }
+      .image table td {
+        color:rgb(231, 127, 30);
+      }
+      footer {
+        border: 1px;
+        padding: 10px;
+
+        transition: 0.5s;
+        cursor: pointer;
+        border-radius: 30px;
+        background: rgb(233, 48, 6);
+        color: black;
+        box-shadow: 0 0 20px rgb(200, 6, 13);
+      }
+      .space{
+        padding-left: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="banner">
+      <br />
+      <div class="navbar">
+        <h1 class="logo">MY SOLUTIONS</h1>
+          <li><a href="home.html"> home </a></li>
+          <li><a href="product.html"> Product </a></li>
+          <li><a href="people.html" class="bg-people"> People </a></li>
+          <li><a href="contact.html"> Contact </a></li>
+        </ul>
+        <form action="" method="get">
+          <input type="text" placeholder="Enter to Search" />
+          <button type="submit">Search</button>
+        </form>
+      </div>
+      <div class="image">
+        <table cellspacing="80" >
+          <tr align="center">
+            <td><img src="Screenshot 2024-05-06 230012 - Copy.png" /></td>
+            <td><img src="WhatsApp Image 2024-05-06 at 22.55.30_b572afd6.jpg" /></td>
+            <td><img src="WhatsApp Image 2024-05-06 at 22.56.01_1cd266c9.jpg" /></td>
+            <td><img src="WhatsApp Image 2024-05-06 at 22.57.49_3ba9fffb - Copy.jpg"/></td>
+           
+          </tr>
+          <tr align="center" class="space">
+            <th>Tarunika</th>
+            <th>Mounika</th>
+            <th>Bunny</th>
+            <th>Thenu</th>
+            
+            
+          </tr>
+          <tr align="center">
+            <td>CEO</td>
+            <td>CEO,Co-Founder</td>
+            <td>CT0</td>
+            <td>DIRECTOR</td>
+          
+            
+          </tr>
+        </table>
+      </div>
+    </div>
+    <footer>
+      <center>DESIGNED AND DEVELOPED BY Lakshmi Mounika (212223100026)</center>
+    </footer>
+  </body>
+</html>
